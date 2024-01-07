@@ -1,0 +1,12 @@
+{
+  "plugins": ["editorconfig", "prettier", "@typescript-eslint"],
+  "extends": [
+    "plugin:editorconfig/noconflict",
+    "prettier",
+    "plugin:@typescript-eslint/recommended",
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}

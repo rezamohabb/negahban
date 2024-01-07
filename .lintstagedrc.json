@@ -1,0 +1,4 @@
+{
+  "*.{md,json}": ["prettier"],
+  "*.{js,mjs,ts,tsx}": ["prettier", "eslint"]
+}
